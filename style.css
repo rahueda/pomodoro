@@ -122,6 +122,7 @@ i {
 @media only screen and (max-width: 500px) {
     .session {
         width: 100%;
+        margin-top: 100px;
     }
     
     .timer{
@@ -149,10 +150,10 @@ i {
     .fa-wrench {
         font-size: 1.5rem;
         position: absolute;
-        margin-top: 30px;
         color: orange;
         text-shadow: 1px 1px 2px black;
         margin-left: 10px;
+        z-index: 5;
     }
 
     .clock {
