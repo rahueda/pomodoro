@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+<div id="container">
+    <h1>Pomodoro Clock</h1>
+    <div class="icon-tool">
+        <i class='fas fa-wrench'></i>
+    </div>
+    <div class="session">
+        <div class="config config-display">
+            <h3>Session</h3>
+            <span class="number-value">
+                <i class="fa fa-angle-down session-minus"></i>
+                    <span class="session-value">25</span>
+                <i class="fa fa-angle-up session-plus"></i>
+            </span>
+            <h3>Break</h3>
+            <span class="number-value">
+                <i class="fa fa-angle-down break-minus"></i>
+                    <span class="break-value">5</span>
+                <i class="fa fa-angle-up break-plus"></i>
+            </span>
+            <p class="default-value">Default</p>
+        </div>
+        <div class="clock">
+            <div class="clock1">
+                <i class="fa fa-play set"></i>
+                <i class="fa fa-refresh set"></i>
+            </div>
+
+            <p class="timer timer-red">25:00</p>
+
+            <div class="clock2">
+                <i class="fa fa-pause set2"></i>
+                <i class="fa fa-stop set2"></i>
+            </div>
+
+            <div class="dots">
+                <span class="dot" value="0"></span>
+                <span class="dot" value="1"></span>
+                <span class="dot" value="2"></span>
+                <span class="dot" value="3"></span>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+<!-- Decide on the task to be done.
+Set the pomodoro timer (traditionally to 25 minutes).[2]
+Work on the task.
+End work when the timer rings and put a checkmark on a piece of paper.[6]
+If you have fewer than four checkmarks, take a short break (3–5 minutes), then go to step 2.
+After four pomodoros, take a longer break (15–30 minutes), reset your checkmark count to zero, then go to step 1. -->
+    <script src="script.js"></script>
+</body>
+</html>

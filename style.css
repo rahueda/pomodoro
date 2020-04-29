@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(177, 215, 230);  
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 4rem;
+    font-family: 'Modak';
+    font-weight: lighter;
+    color: red;
+    text-shadow: 1px 1px black;
+}
+
+h3 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.session {
+    display: flex;
+    font-size: 2rem;
+    position:relative;
+    margin: auto;
+    margin-top: 150px;
+}
+
+i {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.clock {
+    margin: auto;
+    width: 700px;
+}
+
+.clock i {
+    font-size: 3rem;
+    width: 75px;
+    height: 60px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.clock1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.clock2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.timer {
+    text-align: center;
+    font-size: 12rem;
+    font-weight: bolder;
+    margin: 10px;
+    color: rgb(253, 252, 252);
+    text-shadow: 2px 2px 5px black;
+}
+
+.timer-green {
+    text-shadow: 2px 2px 5px rgb(0, 247, 0);
+}
+
+.timer-yellow {
+    text-shadow: 2px 2px 5px yellow;
+}
+
+
+.default-value {
+    background-color: rgb(70, 60, 60);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.config {
+    text-align: center;
+    width: 190px;
+    margin-left: 10px;
+}
+
+.dots {
+    padding-top:20px;
+    width: 100%;
+    text-align: center;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.dotDone {
+    background-color: rgb(1, 248, 1);
+}
+
+@media only screen and (min-width: 1500px) {
+    .clock {
+        padding-right: 200px;
+    }
+}
+@media only screen and (min-width: 500px) {
+    .icon-tool{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .session {
+        width: 100%;
+    }
+    
+    .timer{
+        font-size: 6.5rem;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .config-display{
+        display: none;
+    }
+
+    .config { 
+        position: absolute;
+        background-color: rgb(177, 215, 230);
+        width: 100%;
+        height: 400px;
+        margin: 0;
+        margin-top: -65px;
+    } 
+
+    .fa-wrench {
+        font-size: 1.5rem;
+        position: absolute;
+        margin-top: 30px;
+        color: orange;
+        text-shadow: 1px 1px 2px black;
+        margin-left: 10px;
+    }
+
+    .clock {
+        margin: auto;
+        width: 75%;
+        height: 400px;
+    }
+
+    .clock i {
+        font-size: 2.5rem;
+    }
+
+    .clock1{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .clock2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .default-value{
+        width: 150px;
+        margin: auto;
+        margin-top: 20px;
+    }
+  }
